@@ -20,6 +20,7 @@ justify-content:space-evenly;
 font-size: 36px;
 color: rgb(10, 10, 43);
 padding-top: 4px;
+font-family: 'cairo';
 }
 .card {
   /* المطلوب الثالث هنا */
@@ -43,8 +44,15 @@ img {
   /* المطلوب السادس هنا */
   display: flex;
   justify-content: space-around;
+ 
 }
-
+.hp{
+   box-shadow: 4px 4px 4px rgb(55, 55, 153);
+}
+.hp:hover{
+box-shadow: 7px 7px 7px rgb(202, 27, 27) ;
+transition: all 0.3s ease-in-out;
+}
 .center {
   margin: auto;
 }
